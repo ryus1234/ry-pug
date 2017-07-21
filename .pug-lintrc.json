@@ -1,0 +1,6 @@
+{
+  "disallowBlockExpansion": true,
+  "disallowDuplicateAttributes": true,
+  "disallowMultipleLineBreaks": true,
+  "validateLineBreaks": "LF"
+}

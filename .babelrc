@@ -1,0 +1,41 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "es2015",
+        "react",
+        "flow",
+        [
+          "env",
+          {
+            "targets": {
+              "Chrome": 58
+            }
+          }
+        ]
+      ],
+      "sourceMaps": "inline"
+    },
+    "production": {
+      "presets": [
+        "es2015",
+        "react",
+        "flow",
+        [
+          "env",
+          {
+            "targets": {
+              "browsers": [
+                "last 2 versions",
+                "IE 11"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "babel-plugin-transform-flow-strip-types"
+      ]
+    }
+  }
+}
